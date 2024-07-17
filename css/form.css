@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #030303, #585858);
+    color: #EAEAEA;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    max-width: 800px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(40, 40, 60, 0.9);
+}
+.conteudo {
+    margin-top: 2rem;
+}
+.btn-primary {
+    background-color: #FF5733;
+    border-color: #FF5733;
+    font-size: 1.1rem;
+}
+.btn-primary:hover {
+    background-color: #C70039;
+    border-color: #C70039;
+}
+.lista {
+    margin-top: 2rem;
+}
+.list-group-item {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-group-item .btn-danger {
+    background-color: #FF5733;
+    border-color: #FF5733;
+}
+.list-group-item .btn-danger:hover {
+    background-color: #C70039;
+    border-color: #C70039;
+}
+.form-control {
+    background: rgba(255, 255, 255);
+    border: none;
+    color: #EAEAEA;
+}
+.form-control::placeholder {
+    color: #000000;
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+    border: none;
+}
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
